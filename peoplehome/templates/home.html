@@ -13,7 +13,7 @@
   <meta name="keywords"
     content="creative, animation, business, photography, portfolio, one page, bootstrap responsive, start-up, ui/ux, html5, css3, studio, branding, creative design, multipurpose, parallax, personal, masonry, grid, coming soon, carousel, career">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Torneo - Creative Agency, Business Multi-purpose template</title>
+  <title>PeopleClickLearning</title>
   <link rel="shortcut icon" href="{% static 'assets/images/favicon.ico' %}">
 
   <!-- Core Style Sheets -->
@@ -53,9 +53,29 @@
 
   <!--== Wrapper Start ==-->
   <div class="wrapper">
-    
+    <!--== Top Bar Start ==-->
+    <div class="top-bar dark-bg pt-10 pb-10">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-12 xs-text-center">
+            <a href="mailto:info@peopleclicklearning.com"
+              class="white-color ml-5 relative">info@peopleclicklearning.com</a>
+            <div class="line-verticle-sm v-align-middle display-inline-block relative ml-10 mr-10 white-bg">
+            </div>
+
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-6 text-right xs-text-center">
+            <span class="white-color">Coimbatore - (+91) 9164161200 </span>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-6 text-right xs-text-center"></div>
+          <span class="white-color">Bangalore - (+91) 9741838817</span>
+        </div>
+      </div>
+    </div>
+    <!--== Top Bar End ==-->
     <!--== Header Start ==-->
-    <nav class="navbar navbar-default navbar-fixed navbar-transparent white bootsnav on no-full">
+    <!-- navbar navbar-default navbar-fixed navbar-transparent white bootsnav on no-full -->
+    <nav class="navbar navbar-default bootsnav on no-full">
       <div class="container">
         <!--== Start Atribute Navigation ==-->
         <div class="attr-nav hidden-xs sm-display-none">
@@ -71,11 +91,10 @@
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i
               class="tr-icon ion-android-menu"></i> </button>
-          <div class="logo"> <a href="#"> <img class="logo logo-display" src="{% static 'img/pcllogo2.png' %}"
-                alt=""> <img class="logo logo-scrolled" src="{% static 'img/logo3.png' %}" alt=""> </a> </div>
+          <div class="logo"> <a href="#"><img class="logo logo-scrolled" src="{% static 'img/logo3.png' %}" alt=""> </a>
+          </div>
         </div>
         <!--== End Header Navigation ==-->
-
         <!--== Collect the nav links, forms, and other content for toggling ==-->
         <div class="collapse navbar-collapse" id="navbar-menu">
           <ul class="nav navbar-nav navbar-center" data-in="fadeIn" data-out="fadeOut">
@@ -115,7 +134,12 @@
                       <p>Our Python Full Stack development Course provides the complete live practical training in
                         python Development. From Basics to Advanced Level, our Python Full Stack Training is provided by
                         our Industry experts.</p>
-                      <p class="mt-30"><a class="btn btn-dark btn-md btn-default">Explore Courses</a> </p>
+                      <p class="mt-30">
+                      <div class="tr-modal-popup">
+                        <a href="#modal-popup" data-effect="mfp-zoom-in" class="btn btn-dark btn-md btn-default">Explore
+                          Courses</a>
+                      </div>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -128,7 +152,13 @@
                     <div class="col-md-12">
                       <p>With our career services, we'll make sure you land your ideal position and introduce you to
                         rewarding opportunities in Python Fullstack Career Program</p>
-                      <p class="mt-30"><a class="btn btn-dark-outline btn-md btn-default">Explore Courses</a> </p>
+                      <p class="mt-30">
+                      <div class="tr-modal-popup">
+                        <a href="#modal-popup" data-effect="mfp-zoom-in"
+                          class="btn btn-dark-outline btn-md btn-default">Explore
+                          Courses</a>
+                      </div>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -144,7 +174,12 @@
                         designed and delivered by seasoned professionals with real-world industry experience. Our expert
                         mentors will guide you step-by-step, from mastering Python fundamentals to advanced web
                         development techniques using popular frameworks like Django,Flask.</p>
-                      <p class="mt-30"><a class="btn btn-dark btn-md btn-default">Explore Courses</a> </p>
+                      <p class="mt-30">
+                      <div class="tr-modal-popup">
+                        <a href="#modal-popup" data-effect="mfp-zoom-in" class="btn btn-dark btn-md btn-default">Explore
+                          Courses</a>
+                      </div>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -328,13 +363,17 @@
                   <h3><a href="blog-grid.html">Python Fullstack Master Program</a></h3>
                   <p class="font-300 mt-30" style="color: black;">Our Python Fullstack Master Program provides intensive
                     training in both front-end and back-end development using Python, emphasizing frameworks like Django
-                    and Flask. </p> 
+                    and Flask. </p>
                   <hr>
                   <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i
                           class="icofont icofont-chat"></i><span>Average Salary : 9 LPA
                         </span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>100+
                           Hours</span></span> </span> </p>
-                  <a class="btn btn-sm btn-success btn-square margin-left-auto margin-right-auto display-table-sm" href="#"><span>Explore Courses</span></a>
+                  <div class="tr-modal-popup">
+                    <a href="#modal-popup" data-effect="mfp-zoom-in"
+                      class="btn btn-sm btn-success btn-square margin-left-auto margin-right-auto display-table-sm">Explore
+                      Courses</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -354,7 +393,11 @@
                           class="icofont icofont-chat"></i><span>Average Salary : 9 LPA</span></a> <span
                         class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>100+ Hours</span></span>
                     </span> </p>
-                    <a class="btn btn-sm btn-success btn-square margin-left-auto margin-right-auto display-table-sm" href="#"><span>Explore Courses</span></a>
+                  <div class="tr-modal-popup">
+                    <a href="#modal-popup" data-effect="mfp-zoom-in"
+                      class="btn btn-sm btn-success btn-square margin-left-auto margin-right-auto display-table-sm">Explore
+                      Courses</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -373,7 +416,12 @@
                           class="icofont icofont-chat"></i><span>Average Salary : 9 LPA</span></a> <span
                         class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>100+ Hours</span></span>
                     </span> </p>
-                    <a class="btn btn-sm btn-success btn-square margin-left-auto margin-right-auto display-table-sm" href="#"><span>Explore Courses</span></a>
+                  <div class="tr-modal-popup">
+                    <a href="#modal-popup" data-effect="mfp-zoom-in"
+                      class="btn btn-sm btn-success btn-square margin-left-auto margin-right-auto display-table-sm">Explore
+                      Courses</a>
+                  </div>
+
                 </div>
               </div>
             </div>
@@ -393,7 +441,11 @@
                           class="icofont icofont-chat"></i><span>Average Salary : 9 LPA</span></a> <span
                         class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>100+ Hours</span></span>
                     </span> </p>
-                  <a class="btn btn-sm btn-success btn-square margin-left-auto margin-right-auto display-table-sm" href="#"><span>Explore Courses</span></a>
+                  <div class="tr-modal-popup">
+                    <a href="#modal-popup" data-effect="mfp-zoom-in"
+                      class="btn btn-sm btn-success btn-square margin-left-auto margin-right-auto display-table-sm">Explore
+                      Courses</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -417,8 +469,7 @@
               <div class="testimonial-content">
                 <div class="col-md-3 text-center col-sm-3 col-xs-12 display-table">
                   <div class="v-align-middle">
-                    <img class="img-responsive img-circle" src="{% static 'img/jayasri.jpeg' %}"
-                      alt="avatar-1" />
+                    <img class="img-responsive img-circle" src="{% static 'img/jayasri.jpeg' %}" alt="avatar-1" />
                   </div>
                 </div>
                 <div class="col-md-8 text-left col-sm-8 col-xs-12 xs-text-center">
@@ -437,8 +488,7 @@
               <div class="testimonial-content">
                 <div class="col-md-3 text-center col-sm-3 col-xs-12 display-table">
                   <div class="v-align-middle">
-                    <img class="img-responsive img-circle" src="{% static 'img/lavanya.jpeg' %}"
-                      alt="avatar-1" />
+                    <img class="img-responsive img-circle" src="{% static 'img/lavanya.jpeg' %}" alt="avatar-1" />
                   </div>
                 </div>
                 <div class="col-md-8 text-left col-sm-8 col-xs-12 xs-text-center">
@@ -458,8 +508,7 @@
               <div class="testimonial-content">
                 <div class="col-md-3 text-center col-sm-3 col-xs-12 display-table">
                   <div class="v-align-middle">
-                    <img class="img-responsive img-circle" src="{% static 'img/pavithra.jpeg' %}"
-                      alt="avatar-1" />
+                    <img class="img-responsive img-circle" src="{% static 'img/pavithra.jpeg' %}" alt="avatar-1" />
                   </div>
                 </div>
                 <div class="col-md-8 text-left col-sm-8 col-xs-12 xs-text-center">
@@ -478,8 +527,7 @@
               <div class="testimonial-content">
                 <div class="col-md-3 text-center col-sm-3 col-xs-12 display-table">
                   <div class="v-align-middle">
-                    <img class="img-responsive img-circle" src="{% static 'img/sathiya.jpeg' %}"
-                      alt="avatar-1" />
+                    <img class="img-responsive img-circle" src="{% static 'img/sathiya.jpeg' %}" alt="avatar-1" />
                   </div>
                 </div>
                 <div class="col-md-8 text-left col-sm-8 col-xs-12 xs-text-center">
@@ -499,8 +547,7 @@
               <div class="testimonial-content">
                 <div class="col-md-3 text-center col-sm-3 col-xs-12 display-table">
                   <div class="v-align-middle">
-                    <img class="img-responsive img-circle" src="{% static 'img/subash.jpeg' %}"
-                      alt="avatar-1" />
+                    <img class="img-responsive img-circle" src="{% static 'img/subash.jpeg' %}" alt="avatar-1" />
                   </div>
                 </div>
                 <div class="col-md-8 text-left col-sm-8 col-xs-12 xs-text-center">
@@ -514,7 +561,7 @@
             </div>
           </div>
           <!--== Slide ==-->
-          
+
         </div>
       </div>
     </section>
@@ -532,28 +579,24 @@
         </div>
         <div class="row mt-50">
           <div class="col-md-2 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="0.1s">
-            <div class="client-logo"> <img class="img-responsive" src="{% static 'img/cognizant.png' %}"
-                alt="01" /> </div>
+            <div class="client-logo"> <img class="img-responsive" src="{% static 'img/cognizant.png' %}" alt="01" />
+            </div>
           </div>
           <div class="col-md-2 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="0.2s">
-            <div class="client-logo"> <img class="img-responsive" src="{% static 'img/ibm.png' %}"
-                alt="02" /> </div>
+            <div class="client-logo"> <img class="img-responsive" src="{% static 'img/ibm.png' %}" alt="02" /> </div>
           </div>
           <div class="col-md-2 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="0.3s">
-            <div class="client-logo"> <img class="img-responsive" src="{% static 'img/HCL.png' %}"
-                alt="03" /> </div>
+            <div class="client-logo"> <img class="img-responsive" src="{% static 'img/HCL.png' %}" alt="03" /> </div>
           </div>
           <div class="col-md-2 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="0.4s">
-            <div class="client-logo"> <img class="img-responsive" src="{% static 'img/dell.png' %}"
-                alt="04" /> </div>
+            <div class="client-logo"> <img class="img-responsive" src="{% static 'img/dell.png' %}" alt="04" /> </div>
           </div>
           <div class="col-md-2 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="0.5s">
-            <div class="client-logo"> <img class="img-responsive" src="{% static 'img/oracle.png' %}"
-                alt="05" /> </div>
+            <div class="client-logo"> <img class="img-responsive" src="{% static 'img/oracle.png' %}" alt="05" /> </div>
           </div>
           <div class="col-md-2 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="0.6s">
-            <div class="client-logo"> <img class="img-responsive" src="{% static 'img/nttdata.png' %}"
-                alt="06" /> </div>
+            <div class="client-logo"> <img class="img-responsive" src="{% static 'img/nttdata.png' %}" alt="06" />
+            </div>
           </div>
         </div>
       </div>
@@ -566,40 +609,63 @@
         <div class="row row-flex flex-center">
           <div class="col-md-6 col-sm-6 col-xs-12 map-section">
             <div class="container">
-              
+
               <div class="row mt-50">
                 <div class="col-md-8 col-sm-12 centerize-col">
                   <div class="panel-group accordion-style-01" id="accordion-style">
                     <div class="panel">
-                      <div class="panel-heading active-accordion"> <a data-toggle="collapse" data-parent="#accordion-style" href="#question1" aria-expanded="true" class="">
-                        <div class="panel-title text-uppercase">Who are all can Study Python Fullstack Course ?<span class="pull-right"><i class="ion-android-remove"></i></span> </div>
+                      <div class="panel-heading active-accordion"> <a data-toggle="collapse"
+                          data-parent="#accordion-style" href="#question1" aria-expanded="true" class="">
+                          <div class="panel-title text-uppercase">Who are all can Study Python Fullstack Course ?<span
+                              class="pull-right"><i class="ion-android-remove"></i></span> </div>
                         </a> </div>
-                      <div id="question1" class="panel-collapse collapse in" aria-expanded="true" role="tablist" style="">
-                        <div class="panel-body"> In today's digital age, Python Fullstack development has become one of the most in-demand skills across industries. Candidates from Computer science Graduates , working professionals , IT background students , degree with BCA , BBA , BE , etc can study this course </div>
+                      <div id="question1" class="panel-collapse collapse in" aria-expanded="true" role="tablist"
+                        style="">
+                        <div class="panel-body"> In today's digital age, Python Fullstack development has become one of
+                          the most in-demand skills across industries. Candidates from Computer science Graduates ,
+                          working professionals , IT background students , degree with BCA , BBA , BE , etc can study
+                          this
+                          course </div>
                       </div>
                     </div>
                     <div class="panel">
-                      <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion-style" href="#question2" aria-expanded="false" class="collapsed">
-                        <div class="panel-title text-uppercase">Why Should I Learn Python Fullstack Development Course ?<span class="pull-right"><i class="ion-android-add"></i></span> </div>
+                      <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion-style"
+                          href="#question2" aria-expanded="false" class="collapsed">
+                          <div class="panel-title text-uppercase">Why Should I Learn Python Fullstack Development Course
+                            ?<span class="pull-right"><i class="ion-android-add"></i></span> </div>
                         </a> </div>
-                      <div id="question2" class="panel-collapse collapse" aria-expanded="false" role="tablist" style="height: 0px;">
-                        <div class="panel-body"> In today's digital age, Python Fullstack development has become one of the most in-demand skills across industries. Whether you're looking to build web applications, automate tasks, or dive into data science, fullstack development with Python gives you the tools to succeed. </div>
+                      <div id="question2" class="panel-collapse collapse" aria-expanded="false" role="tablist"
+                        style="height: 0px;">
+                        <div class="panel-body"> In today's digital age, Python Fullstack development has become one of
+                          the most in-demand skills across industries. Whether you're looking to build web applications,
+                          automate tasks, or dive into data science, fullstack development with Python gives you the
+                          tools
+                          to succeed. </div>
                       </div>
                     </div>
                     <div class="panel">
-                      <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion-style" href="#question3" aria-expanded="false" class="collapsed">
-                        <div class="panel-title text-uppercase">What training modes does Peopleclick Learning offer for the Python Fullstack course? <span class="pull-right"><i class="ion-android-add"></i></span> </div>
+                      <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion-style"
+                          href="#question3" aria-expanded="false" class="collapsed">
+                          <div class="panel-title text-uppercase">What training modes does Peopleclick Learning offer
+                            for
+                            the Python Fullstack course? <span class="pull-right"><i class="ion-android-add"></i></span>
+                          </div>
                         </a> </div>
                       <div id="question3" class="panel-collapse collapse" aria-expanded="false" role="tablist">
-                        <div class="panel-body"> Both online and classroom training is available. Students can prefer according to their convenience. </div>
+                        <div class="panel-body"> Both online and classroom training is available. Students can prefer
+                          according to their convenience. </div>
                       </div>
                     </div>
                     <div class="panel">
-                      <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion-style" href="#question4" aria-expanded="false" class="collapsed">
-                        <div class="panel-title text-uppercase">What job roles are available after completing the Python Fullstack Course?<span class="pull-right"><i class="ion-android-add"></i></span> </div>
+                      <div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion-style"
+                          href="#question4" aria-expanded="false" class="collapsed">
+                          <div class="panel-title text-uppercase">What job roles are available after completing the
+                            Python
+                            Fullstack Course?<span class="pull-right"><i class="ion-android-add"></i></span> </div>
                         </a> </div>
                       <div id="question4" class="panel-collapse collapse" aria-expanded="false" role="tablist">
-                        <div class="panel-body"> Job roles include front-end developer, back-end developer, Python developer, web developer, full-stack developer, and software engineer.</div>
+                        <div class="panel-body"> Job roles include front-end developer, back-end developer, Python
+                          developer, web developer, full-stack developer, and software engineer.</div>
                       </div>
                     </div>
                   </div>
@@ -615,7 +681,11 @@
                 <p class="mt-30 font-300 font-20px line-height-30">177, Bhumi Complex, 9th Main Rd, Sector 7, HSR
                   Layout, <br> Bengaluru, Karnataka 560102</p>
                 <p class="mt-30 font-300 font-20px line-height-30">Tel:+91 9741838817</p>
-                <a href="#." class="btn btn-md btn-square btn-light-outline mt-30">Contact Us</a>
+
+                <div class="tr-modal-popup">
+                  <a href="#modal-popup" data-effect="mfp-zoom-in"
+                    class="btn btn-md btn-square btn-light-outline mt-30">Contact Us</a>
+                </div>
               </div>
             </div>
           </div>
@@ -627,7 +697,11 @@
                 <p class="mt-30 font-300 font-20px line-height-30">41A, 2nd Floor, West Lokamanya St, R.S. Puram, <br>
                   Coimbatore, Tamil Nadu 641002</p>
                 <p class="mt-30 font-300 font-20px line-height-30">Tel:+91 9164161200</p>
-                <a href="#." class="btn btn-md btn-square btn-light-outline mt-30">Contact Us</a>
+
+                <div class="tr-modal-popup">
+                  <a href="#modal-popup" data-effect="mfp-zoom-in"
+                    class="btn btn-md btn-square btn-light-outline mt-30">Contact Us</a>
+                </div>
               </div>
             </div>
           </div>
@@ -642,27 +716,62 @@
         <div class="row">
           <div class="col-lg-7 col-md-7 col-xs-12 centerize-col text-center">
             <h2 class="mb-30 play-font font-700 mt-0 font-50px">Accelerate Your Career Growth & Upskill Yourself</h2>
-            <a class="btn btn-md btn-dark btn-animate btn-square"><span>Start a Course <i
-                  class="tr-icon icofont icofont-arrow-right"></i></span></a>
+            <div class="tr-modal-popup"><a class="btn btn-md btn-dark btn-animate btn-square" href="#modal-popup"
+                data-effect="mfp-zoom-in"><span>Start a Course <i
+                    class="tr-icon icofont icofont-arrow-right"></i></span></a></div>
           </div>
         </div>
       </div>
     </section>
     <!--== Call to Actions End ==-->
+    <!--== Modal Popup Style 01 Start ==-->
 
+
+
+    <!--== Modal Popup Style 01 End ==-->
+    <!-- Modal Popup Message Box -->
+    <div id="modal-popup"
+      class="white-bg all-padding-60 mfp-with-anim mfp-hide centerize-col col-lg-3 col-md-6 col-sm-7 col-xs-11 text-center">
+      <div class="col-md-12 mb-20 col-xs-12 col-sm-12">
+        
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" name="name" class="form-control" id="name" required="" placeholder="Your Name" data-error="Your Name is Required">
+          <div class="help-block with-errors mt-20"></div>
+        </div>
+        <div class="form-group">
+          <label>Mobile Number</label>
+          <input class="form-control" id="mobilenumber" name="mobilenumber" type="text" required="" placeholder="Mobile Number" data-error="Mobile Number is Required">
+          <div class="help-block with-errors mt-20"></div>
+        </div>
+        <div class="form-group">
+          <label>Course Interested In</label>
+          <input class="form-control" id="courseinterestedin" name="courseinterestedin" type="text" required="" placeholder="Course Interested In" data-error="Course Interested In is Required">
+          <div class="help-block with-errors mt-20"></div>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea class="form-control" id="message" name="message" type="text" required="" placeholder="Message" data-error="Message is Required"></textarea>
+          <div class="help-block with-errors mt-20"></div>
+        </div>
+        
+      </div>
+      <a class="btn btn-lg btn-circle btn-color" href="#">Send</a>
+    </div>
     <!--== Footer Start ==-->
     <footer class="footer dark-block">
       <div class="footer-copyright">
         <div class="container">
           <div class="row">
             <div class="col-sm-4 col-xs-12 display-table" style="height: 40px;">
-              <div class="copy-right text-left v-align">© 2024 <i class="icon icofont icofont-heart-alt"></i> PeopleClickLearning.
+              <div class="copy-right text-left v-align">© 2024 <i class="icon icofont icofont-heart-alt"></i>
+                PeopleClickLearning.
                 All rights reserved</div>
             </div>
             <div class="col-sm-4 col-xs-12">
               <div class="logo display-block height-auto"><a href="index.html">
-                  <img class="logo margin-left-auto margin-right-auto"
-                    src="{% static 'img/logo3.png' %}" alt="PeopleClickLearning logo"></a>
+                  <img class="logo margin-left-auto margin-right-auto" src="{% static 'img/logo3.png' %}"
+                    alt="PeopleClickLearning logo"></a>
               </div>
             </div>
             <div class="col-sm-4 col-xs-12">

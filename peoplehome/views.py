@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
 def landing_page(request):
-    return render(request, "navbar.html", {})
+    return render(request, "home.html", {})
