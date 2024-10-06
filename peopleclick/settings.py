@@ -133,4 +133,4 @@ STATICFILES_DIRS = [
 ]
 
 # In production, you'll likely want to serve static files from a different location
-# STATIC_ROOT = BASE_DIR / 'staticfiles'  # Used when running 'collectstatic'
+STATIC_ROOT = BASE_DIR / 'staticfiles'  # Used when running 'collectstatic'
